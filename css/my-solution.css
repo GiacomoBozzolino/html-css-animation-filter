@@ -61,10 +61,20 @@
 
 /* ESERCIZIO 7 */
 .ex-7-img:hover{
-    filter: grayscale(70%);
-    filter: sepia(60%);
+    filter: grayscale(70%) sepia(60%);
 }
 .ex-7-img{
     transition: 2s;
  }
  /* FINE ESERCIZIO 7 */
+
+
+ /* ESERCIZIO 8 */
+ .ex-8-img:hover{
+    filter: grayscale(70%) sepia(60%);
+    border-radius: 5%;
+}
+.ex-8-img{
+    transition: 2s;
+ }
+ /* FINE ESERCIZIO 8 */
