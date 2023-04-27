@@ -147,16 +147,37 @@
 }
 
 @keyframes circle-left{
-    0% { left: 10% } 
-    50% {  left: calc(100% - 60px) } 
-    100% { left: 10% }
+    0% { 
+        left: 20%;
+        top: -10px;
+    } 
+    30% { 
+        left: calc(100% - 20px);
+        top: -10px;
+    } 
+    45% { 
+        left: calc(100% - 20px);
+        top: calc(100% - 10px);
+        } 
+    75%{ 
+        left:-20px;
+        top:calc(100% - 10px);
+    } 
+    90%{ 
+        left:-20px;
+        top:-10px
+    } 
+
+    100% { 
+        left: 20%;
+        top: -10px;
+        } 
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     animation-name: circle-right;
     animation-duration: 2s;
     animation-timing-function: linear;
-    background-color: brown; /* rimuovere colore ad animazione finita */
 } 
 
 @keyframes circle-right{
@@ -168,7 +189,7 @@
         right: calc(100% - 20px);
         bottom: -10px;
     } 
-    50% { 
+    45% { 
         right: calc(100% - 20px);
         bottom: calc(100% - 10px);
         } 
@@ -186,3 +207,5 @@
         bottom: -10px;
         } 
 }
+
+/* FINE ESERCIZIO 13 */
