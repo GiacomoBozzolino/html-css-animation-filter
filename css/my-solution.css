@@ -107,7 +107,7 @@
  }
 
  @keyframes spin{
-     0% { transform: rotate(360deg); } 
+     0% { transform: rotate(0deg); } 
      85% { transform: rotate(315deg); } 
      100% { transform: rotate(0deg); }
  }
@@ -116,7 +116,7 @@
 /* ESERCIZIO 12 */
 .ex-12-button:hover .ex-12-top-white {
     animation-name: slide-left;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-timing-function: linear;
 }
 
