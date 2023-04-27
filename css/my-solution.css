@@ -90,3 +90,24 @@
  /* FINE ESERCIZIO 9 */
 
  /* ESERCIZIO 10 */
+ .ex-10-icon{
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+ }
+
+ @keyframes rotation{
+     0% { transform: rotate(360deg); } 
+ }
+
+ /* ESERCIZIO 11 */
+ .ex-11-icon:hover{
+    animation: spin 2s linear;
+ }
+
+ @keyframes spin{
+     0% { transform: rotate(360deg); } 
+     85% { transform: rotate(315deg); } 
+     0% { transform: rotate(0deg); }
+ }
