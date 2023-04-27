@@ -100,7 +100,7 @@
  @keyframes rotation{
      0% { transform: rotate(360deg); } 
  }
-
+/* FINE ESERCIZIO 10 */
  /* ESERCIZIO 11 */
  .ex-11-icon:hover{
     animation: spin 2s linear;
@@ -109,5 +109,19 @@
  @keyframes spin{
      0% { transform: rotate(360deg); } 
      85% { transform: rotate(315deg); } 
-     0% { transform: rotate(0deg); }
+     100% { transform: rotate(0deg); }
  }
+/* FINE ESERCIZIO 11 */
+
+/* ESERCIZIO 12 */
+.ex-12-button{
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes spin{
+    0% { transform: left: 0%; } 
+    50% { transform: left:100%; } 
+    0% { transform: left:0%); }
+}
