@@ -60,3 +60,11 @@
 /* FINE ESERCIZIO 6 */
 
 /* ESERCIZIO 7 */
+.ex-7-img:hover{
+    filter: grayscale(70%);
+    filter: sepia(60%);
+}
+.ex-7-img{
+    transition: 2s;
+ }
+ /* FINE ESERCIZIO 7 */
