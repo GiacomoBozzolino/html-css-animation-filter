@@ -4,7 +4,7 @@
 }
 
 .ex-1-square{
-    transition: 3s;
+    transition: 2s;
 }
 
 /* FINE ESERCIZIO 1 */
@@ -15,7 +15,7 @@
 }
 
 .ex-2-square{
-    transition: 3s;
+    transition: 2s;
 }
 
 /* FINE ESERCIZIO 2 */
@@ -148,7 +148,7 @@
 
 @keyframes circle-left{
     0% { 
-        left: 20%;
+        left: 10%;
         top: -10px;
     } 
     30% { 
@@ -169,15 +169,16 @@
     } 
 
     100% { 
-        left: 20%;
+        left: 10%;
         top: -10px;
         } 
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     animation-name: circle-right;
-    animation-duration: 2s;
+    animation-duration:2s;
     animation-timing-function: linear;
+   
 } 
 
 @keyframes circle-right{
@@ -186,11 +187,11 @@
         bottom: -10px;
     } 
     30% { 
-        right: calc(100% - 20px);
+        right: calc(100% - 50px);
         bottom: -10px;
     } 
     45% { 
-        right: calc(100% - 20px);
+        right: calc(100% - 50px);
         bottom: calc(100% - 10px);
         } 
     75%{ 
